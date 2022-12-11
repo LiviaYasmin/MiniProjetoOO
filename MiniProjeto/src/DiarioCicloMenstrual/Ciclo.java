@@ -11,7 +11,9 @@ public class Ciclo {
 	
 	
 	
-		//Metodos Especiais
+
+
+	//Metodos Especiais
 	public int getDuracaoCiclo() {
 		return duracaoCiclo;
 	}

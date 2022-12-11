@@ -3,8 +3,8 @@ package DiarioCicloMenstrual;
 public abstract class Periodo {
 		//Atributos
 	private int duracao;
-	private int dataInicio;
-	private int dataFinal;
+	private String dataInicio;
+	private String dataFinal;
 	private String descricao;
 	
 	
@@ -17,16 +17,16 @@ public abstract class Periodo {
 	public void setDuracao(int duracao) {
 		this.duracao = duracao;
 	}
-	public int getDataInicio() {
+	public String getDataInicio() {
 		return dataInicio;
 	}
-	public void setDataInicio(int dataInicio) {
+	public void setDataInicio(String dataInicio) {
 		this.dataInicio = dataInicio;
 	}
-	public int getDataFinal() {
+	public String getDataFinal() {
 		return dataFinal;
 	}
-	public void setDataFinal(int dataFinal) {
+	public void setDataFinal(String dataFinal) {
 		this.dataFinal = dataFinal;
 	}
 	public String getDescricao() {

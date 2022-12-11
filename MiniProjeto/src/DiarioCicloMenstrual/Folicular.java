@@ -5,8 +5,30 @@ public class Folicular extends Periodo{
 	private int duracaoMenstruacao;
 	private String inicioMenstruacao;
 	
+	public Folicular() {
+		super();
+	}
 	
-		//Metodos Especiais
+		//Metodo Construtor
+	public Folicular(int du, String dtIn, String dtFn, String desc) {
+		
+		this.setDuracao(du); 
+		this.setDataInicio(dtIn);
+		this.setDataFinal(dtFn);
+		this.setDescricao(desc);
+	}
+	
+	
+	
+		//Metodo toString
+	@Override
+	public String toString() {
+		return "-------------------------------------------------\nDuracao: " + getDuracao() + "\nData de Inicio: " + getDataInicio() + "\nData Final: "
+				+ getDataFinal() + "\nDuracao da Menstruacao: " + getDuracaoMenstruacao() + " dias" + "\nDescricao: " + getDescricao();
+	}
+
+	
+	//Metodos Especiais
 	public int getDuracaoMenstruacao() {
 		return duracaoMenstruacao;
 	}

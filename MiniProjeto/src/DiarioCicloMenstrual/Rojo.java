@@ -8,8 +8,14 @@ public class Rojo {
 		c.setDuracaoCiclo(28);
 		c.lerCiclo();
 		
-		
-		
+		Folicular f = new Folicular();
+		f.setDuracao(14);
+		f.setDataInicio("13/07/2022");
+		f.setDataFinal("14/08/2002");
+		f.setDuracaoMenstruacao(7);
+		f.setDescricao("Este e o seu Periodo Folicular");
+		System.out.println(f.toString());
+	
 	}
 
 }
