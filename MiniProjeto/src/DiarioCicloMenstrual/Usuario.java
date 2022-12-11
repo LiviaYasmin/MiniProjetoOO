@@ -12,7 +12,7 @@ public class Usuario {
 	public String getNomeUsuario() {
 		return nomeUsuario;
 	}
-	public void setNomeUsuario(String nome) {
+	public void setNomeUsuario(String nomeUsuario) {
 		this.nomeUsuario = nomeUsuario;
 	}
 	public double getPeso() {
@@ -38,6 +38,11 @@ public class Usuario {
 		//Metodos Publicos
 	public void cadastrarUsuario() {
 		
+	}
+	@Override
+	public String toString() {
+		return "Nome do Usuario: " + getNomeUsuario() + "\nPeso: " + getPeso() + 
+				" kg" + "\nAltura: " + getAltura() + "\nE-mail: " + getEmail() + "\n-------------------------------------------------";
 	}
 	
 	

@@ -45,7 +45,7 @@ public class Folicular extends Periodo{
 	
 		//Metodos Publicos
 	public void calculaMenstruacao() {
-		
+		//this.setDuracaoMenstruacao(this.setDataFinal() - this.setDataInicio());
 	}
 	
 	
