@@ -1,7 +1,7 @@
 package DiarioCicloMenstrual;
 
 public class Ciclo {
-
+		//Atributos
 	private int duracaoCiclo;
 	
 	
@@ -11,7 +11,7 @@ public class Ciclo {
 	
 	
 	
-	//Metodos Especiais
+		//Metodos Especiais
 	public int getDuracaoCiclo() {
 		return duracaoCiclo;
 	}
@@ -20,8 +20,8 @@ public class Ciclo {
 		this.duracaoCiclo = duracaoCiclo;
 	}
 	
-	
-	//Metodos publicos
+		
+		//Metodos publicos
 
 	public void comparaCiclo() {
 		
@@ -40,7 +40,17 @@ public class Ciclo {
 		System.out.println("Esta e a duracao do seu ciclo: " + this.getDuracaoCiclo() + " dias.");
 	}
 	
+	public void alterarCiclo() {
+		
+	}
 	
+	public void deletarCiclo() {
+		
+	}
+	
+	public void avisarProximaMenstruacao() {
+		
+	}
 	
 	
 	
